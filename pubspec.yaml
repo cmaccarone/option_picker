@@ -1,6 +1,6 @@
 name: option_picker
-description: This package adds a concise way to implement a two(only) option modal, this is perfect for using with an image picker where the client needs to choose between the photo gallery or taking a picture. But it can be used for any two option situation. Its is very simple to implement.
-version: 0.0.2
+description: This package adds a concise way to implement a two(only) option modal, this is perfect for using with an image picker where the client needs to choose between the photo gallery or taking a picture.
+version: 0.0.3
 author: Caleb Maccarone<maccarone1989@gmail.com>
 homepage: https://github.com/cmaccarone/option_picker.git
 
