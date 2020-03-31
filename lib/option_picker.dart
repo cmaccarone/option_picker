@@ -5,13 +5,13 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ModalPicker {
-  ModalPicker.show(
+class OptionPicker {
+  OptionPicker.show(
       {@required this.title,
       this.subtitle,
       this.firstButtonText,
       this.secondButtonText,
-      this.cancelText,
+      this.cancelText = "Cancel",
       @required this.onPressedFirst,
       @required this.onPressedSecond,
       @required this.context}) {
