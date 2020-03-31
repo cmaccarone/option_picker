@@ -1,8 +1,8 @@
 name: option_picker
-description: A new Flutter package project.
+description: Modal 2 option picker
 version: 0.0.1
-author:
-homepage:
+author: cmaccarone
+homepage: https://github.com/cmaccarone/option_picker.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
