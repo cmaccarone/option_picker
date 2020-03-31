@@ -105,17 +105,17 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           OptionPicker.show(
+            context: context,
             title: "Choose Photo",
             subtitle: "",
-            onPressedFirst: () {
-              print("Gallery chosen");
-            },
-            onPressedSecond: () {
-              print("take a picture");
-            },
-            context: context,
             firstButtonText: "Gallery",
+            onPressedFirst: () {
+              //open photo gallery
+            },
             secondButtonText: "Take a Picture",
+            onPressedSecond: () {
+              //open camera
+            },
           );
         },
         tooltip: 'Increment',
