@@ -1,7 +1,7 @@
 name: option_picker
 description: Modal 2 option picker
 version: 0.0.1
-author: cmaccarone
+author: Caleb Maccarone <maccarone1989@gmail.com>
 homepage: https://github.com/cmaccarone/option_picker.git
 
 environment:
