@@ -1,15 +1,31 @@
-ls
 # option_picker
 
-A new Flutter package project.
+This package was created to use for choosing between the camera gallery and taking a picture, but it can be used for any two option scenario.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+IOS             |  ANDROID
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/cmaccarone/option_picker/master/IOS.png) | ![](https://raw.githubusercontent.com/cmaccarone/option_picker/master/Android.png)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+### HOW TO USE
+
+just implement the OptionPicker.Show(); method and you are good to go!
+```
+onPressed: () {
+OptionPicker.show(
+            context: context,
+            title: "Choose Photo",
+            subtitle: "",
+            firstButtonText: "Gallery",
+            onPressedFirst: () {
+              //open photo gallery
+            },
+            secondButtonText: "Take a Picture",
+            onPressedSecond: () {
+              //open camera
+            },
+          );
+}
+```
+
