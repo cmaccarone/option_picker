@@ -1,6 +1,6 @@
 name: option_picker
 description: This package adds a concise way to implement a two(only) option modal picker.
-version: 0.0.5
+version: 0.1.0
 author: Caleb Maccarone<maccarone1989@gmail.com>
 homepage: https://github.com/cmaccarone/option_picker.git
 
